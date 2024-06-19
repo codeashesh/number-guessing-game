@@ -1,5 +1,9 @@
+import com.nagp.game.numberguess.NumberGuess;
+
 public class NumberGuessApplication {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        NumberGuess numberGuess = new NumberGuess();
+        numberGuess.startGame();
     }
 }
